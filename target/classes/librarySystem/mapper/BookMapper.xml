@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="librarySystem.dao.BookDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.Book">
+        <id column="bookNO" property="bookNO" jdbcType="VARCHAR"/>
+        <result column="bookName" property="bookName" jdbcType="VARCHAR"/>
+        <result column="collectionNum" property="collectionNum" jdbcType="INTEGER"/>
+        <result column="borrowedNum" property="borrowedNum" jdbcType="INTEGER"/>
+        <result column="author" property="author" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="getAllBooks" resultMap="baseResultMap">
+        SELECT * FROM book
+    </select>
+</mapper>

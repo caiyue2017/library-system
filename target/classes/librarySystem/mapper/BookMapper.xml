@@ -8,9 +8,50 @@
         <result column="collectionNum" property="collectionNum" jdbcType="INTEGER"/>
         <result column="borrowedNum" property="borrowedNum" jdbcType="INTEGER"/>
         <result column="author" property="author" jdbcType="VARCHAR"/>
+        <result column="press" property="press" jdbcType="VARCHAR"/>
+        <result column="translator" property="translator" jdbcType="VARCHAR"/>
+        <result column="book_desc" property="bookDesc" jdbcType="VARCHAR"/>
+        <result column="page_num" property="pageNum"/>
+        <result column="book_image" property="bookImage" jdbcType="VARCHAR"/>
+        <result column="book_type" property="bookType" jdbcType="VARCHAR"/>
+        <result column="store_addr" property="storeAddress" jdbcType="VARCHAR"/>
+        <result column="cnum" property="cnum" jdbcType="CHAR"/>
+        <result column="price" property="price" jdbcType="DOUBLE"/>
     </resultMap>
 
     <select id="getAllBooks" resultMap="baseResultMap">
         SELECT * FROM book
+    </select>
+
+    <select id="findBooksByName" resultMap="baseResultMap">
+        SELECT * FROM book where bookName LIKE CONCAT('%',#{searchWords},'%')
+    </select>
+
+    <select id="findBooksByNameAndType" resultMap="baseResultMap">
+        select * from book where bookName LIKE CONCAT('%',#{searchWords},'%') and book_type = #{type}
+    </select>
+
+    <select id="findBooksByAuthor" resultMap="baseResultMap">
+        SELECT * FROM book where author LIKE CONCAT('%',#{searchWords},'%')
+    </select>
+
+    <select id="findBooksByAuthorAndType" resultMap="baseResultMap">
+        select * from book where author LIKE CONCAT('%',#{searchWords},'%') and book_type = #{type}
+    </select>
+
+    <select id="findBooksByNO" resultMap="baseResultMap">
+        SELECT * FROM book where bookNO LIKE CONCAT('%',#{searchWords},'%')
+    </select>
+
+    <select id="findBooksByNOAndType" resultMap="baseResultMap">
+        select * from book where bookNO LIKE CONCAT('%',#{searchWords},'%') and book_type = #{type}
+    </select>
+
+    <select id="findBooksByPress" resultMap="baseResultMap">
+        SELECT * FROM book where press LIKE CONCAT('%',#{searchWords},'%')
+    </select>
+
+    <select id="findBooksByPressAndType" resultMap="baseResultMap">
+        select * from book where press LIKE CONCAT('%',#{searchWords},'%') and book_type = #{type}
     </select>
 </mapper>

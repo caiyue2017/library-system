@@ -27,7 +27,8 @@ public class MyBatisTest {
     }
     @Test
     public void testFindBooks(){
-        List<Book> bookList = bookDao.getAllBooks();
-        System.out.println(bookList.get(0).getAuthor());
+        String s = "中文图书";
+        List<Book> bookList = bookDao.findBooksByNameAndType("明朝",s);
+        System.out.println(bookList.size());
     }
 }

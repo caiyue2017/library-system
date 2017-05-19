@@ -3,20 +3,19 @@ package librarySystem.config;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.sql.DataSource;
 import java.beans.PropertyVetoException;
 import java.io.IOException;
 
 @Configuration
-@ComponentScan(basePackages = {"librarySystem.dao"})
+// spring扫描basePackages下的包，excludeFilters表示不包含EnableWebMvc注解的类
+@ComponentScan(basePackages = {"librarySystem"},excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION,value = EnableWebMvc.class)})
 @PropertySource(value = "classpath:db.properties")
 public class RootConfig {
     @Bean(destroyMethod = "close")

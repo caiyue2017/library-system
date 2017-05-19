@@ -1,18 +1,15 @@
 package librarySystem.domain;
 
-/**
- * Created by 阿越 on 2017/5/16.
- */
 public class Permission {
-    private int pid;
+    private Integer pid;
     private String pname;
     private String pdesc;
 
-    public int getPid() {
+    public Integer getPid() {
         return pid;
     }
 
-    public void setPid(int pid) {
+    public void setPid(Integer pid) {
         this.pid = pid;
     }
 

@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e750d136-54fe-442f-95bf-19c7b13b82e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentAndBorrowDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherAndBorrowDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Borrow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Permission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Borrow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Permission.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentAndBorrowMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherAndBorrowMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/StudentAndBorrowDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/StudentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/TeacherAndBorrowDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/TeacherDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Student_Borrow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Student_Permission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Teacher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Teacher_Borrow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Teacher_Permission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/StudentAndBorrowMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/StudentMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/TeacherAndBorrowMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/TeacherMapper.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/config/RootConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/config/WebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/BookDao.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/dao/BookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Book.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/domain/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Permission.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/domain/Permission.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MyBatisTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MyBatisTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/config/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/config/RootConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/config/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/config/WebConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/domain/Permission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/target/classes/librarySystem/mapper/BookMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,7 +26,27 @@
     <favorites_list name="LibrarySystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="searchBooks.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="375" column="26" selection-start-line="375" selection-start-column="26" selection-end-line="375" selection-end-column="26" />
+              <folding>
+                <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1495343499680" expanded="true" signature="17674:17763" ph="..." />
+                <marker date="1495343499680" expanded="true" signature="17829:17841" ph="..." />
+                <marker date="1495343499680" expanded="true" signature="18148:18167" ph="..." />
+                <marker date="1495343499680" expanded="true" signature="18198:18287" ph="..." />
+                <marker date="1495343499680" expanded="true" signature="18353:18365" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,13 +98,13 @@
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/MyBatisTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
       </list>
     </option>
   </component>
@@ -160,10 +135,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="256" />
-    <option name="y" value="46" />
-    <option name="width" value="1735" />
-    <option name="height" value="1061" />
+    <option name="x" value="281" />
+    <option name="y" value="105" />
+    <option name="width" value="1618" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -190,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,12 +284,30 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="LibrarySystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LibrarySystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layui" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +330,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,6 +601,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -618,6 +619,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images\book" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images" />
       <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\jsp" />
       <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\resources\librarySystem\mapper" />
       <recent name="E:\ProgramProject\IntelliJ IDEA Java Project\LibrarySystem\src\main\resources\librarySystem\mapper" />
@@ -644,7 +647,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.testFindBooks">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="false" name="MyBatisTest.testConn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="LibrarySystem" />
@@ -1115,7 +1118,6 @@
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="LibrarySystem:war exploded">
           <settings>
@@ -1284,7 +1286,12 @@
       <workItem from="1495097044980" duration="1320000" />
       <workItem from="1495099196804" duration="4457000" />
       <workItem from="1495112309563" duration="144000" />
-      <workItem from="1495154219822" duration="11695000" />
+      <workItem from="1495154219822" duration="12375000" />
+      <workItem from="1495177264729" duration="314000" />
+      <workItem from="1495249892355" duration="4917000" />
+      <workItem from="1495257764653" duration="5282000" />
+      <workItem from="1495279875005" duration="15000" />
+      <workItem from="1495337010589" duration="4860000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1495096698503</created>
@@ -1314,7 +1321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495099277135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="搜索">
+      <created>1495168201598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1495168201598</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1350,7 +1364,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28085000" />
+    <option name="totallyTimeSpent" value="44153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1362,8 +1376,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="46" width="1735" height="1061" extended-state="0" />
-    <editor active="false" />
+    <frame x="281" y="105" width="1618" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1385,13 +1399,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42650333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4216418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25075164" sideWeight="0.49312377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30336353" sideWeight="0.48510638" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22347267" sideWeight="0.50687623" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30336353" sideWeight="0.5148936" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1423,7 +1437,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml修改" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1481,7 +1496,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1495167849487" expanded="true" signature="1378:1396" ph="SELECT * FRO... book" />
+            <marker date="1495167849487" expanded="true" signature="1480:1549" ph="SELECT * FRO... book" />
+            <marker date="1495167849487" expanded="true" signature="1640:1733" ph="select * fro... book" />
+            <marker date="1495167849487" expanded="true" signature="1819:1886" ph="SELECT * FRO... book" />
+            <marker date="1495167849487" expanded="true" signature="1979:2070" ph="select * fro... book" />
+            <marker date="1495167849487" expanded="true" signature="2152:2219" ph="SELECT * FRO... book" />
+            <marker date="1495167849487" expanded="true" signature="2308:2399" ph="select * fro... book" />
+            <marker date="1495167849487" expanded="true" signature="2484:2550" ph="SELECT * FRO... book" />
+            <marker date="1495167849487" expanded="true" signature="2642:2732" ph="select * fro... book" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1529,108 +1554,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Borrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Borrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentAndBorrowDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherAndBorrowDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentAndBorrowMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherAndBorrowMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Borrow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Student_Permission.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Borrow.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Teacher_Permission.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/StudentAndBorrowDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/TeacherAndBorrowDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentAndBorrowMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/StudentMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/TeacherAndBorrowMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/config/SystemInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1642,20 +1579,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/layui/layui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1663,7 +1591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="661" column="19" selection-start-line="661" selection-start-column="1" selection-end-line="661" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1711,7 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1727,9 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="19" column="38" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1738,7 +1661,7 @@
         <state relative-caret-position="201">
           <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1747,7 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1777,21 +1699,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
           <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#700#706#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#700#706#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="375" column="26" selection-start-line="375" selection-start-column="26" selection-end-line="375" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1495343499680" expanded="true" signature="17674:17763" ph="..." />
+            <marker date="1495343499680" expanded="true" signature="17829:17841" ph="..." />
+            <marker date="1495343499680" expanded="true" signature="18148:18167" ph="..." />
+            <marker date="1495343499680" expanded="true" signature="18198:18287" ph="..." />
+            <marker date="1495343499680" expanded="true" signature="18353:18365" ph="..." />
           </folding>
         </state>
       </provider>

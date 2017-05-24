@@ -19,4 +19,8 @@ public interface BookDao {
 
     List<Book> findBooksByPress(@Param("searchWords")String searchWords);
     List<Book> findBooksByPressAndType(@Param("searchWords") String searchWords, @Param("type") String type);
+
+    List<Book> findBorrowNumAndOrder();
+
+    List<Book> findSearchNumAndOrder();
 }

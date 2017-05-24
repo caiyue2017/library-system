@@ -18,4 +18,8 @@ public interface BookService {
     List<Book> findBooksByNOAndType(String searchWords, String book_type);
 
     List<Book> findBooksByPressAndType(String searchWords, String book_type);
+
+    List<Book> findBorrowNumAndOrder();
+
+    List<Book> findSearchNumAndOrder();
 }

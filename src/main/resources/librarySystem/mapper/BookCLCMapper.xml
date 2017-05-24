@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="librarySystem.dao.BookCLCDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.BookCLC">
+        <id column="barCode" property="barCode" jdbcType="VARCHAR"/>
+        <result column="bookNO" property="bookNO" jdbcType="VARCHAR"/>
+        <result column="store_addr" property="storeAddress" jdbcType="VARCHAR"/>
+        <result column="status" property="status" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="findByBookNO" resultMap="baseResultMap">
+        SELECT * FROM bookclc WHERE bookNO = #{bookNO};
+    </select>
+
+    <select id="findByStatus" resultMap="baseResultMap">
+        SELECT * FROM bookclc WHERE STATUS = '可借' and bookNO = #{bookNO};
+    </select>
+
+</mapper>

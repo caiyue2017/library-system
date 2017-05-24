@@ -43,4 +43,12 @@ public class BookServiceImpl implements BookService{
         else
             return bookDao.findBooksByPressAndType(searchWords, book_type);
     }
+
+    public List<Book> findBorrowNumAndOrder() {
+        return bookDao.findBorrowNumAndOrder();
+    }
+
+    public List<Book> findSearchNumAndOrder() {
+        return bookDao.findSearchNumAndOrder();
+    }
 }

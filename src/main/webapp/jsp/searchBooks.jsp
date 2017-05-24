@@ -53,35 +53,40 @@
         .layui-tab-item .nav-item {
             display: inline-block;
             float: left;
-            margin-right: 15px;
+            margin-right: 17px;
             margin-top: 15px;
             position: relative;
             background-color: #fcfcfc;
             line-height: 60px;
-            width: 120px;
+            width: 200px;
             text-align: center;
         }
+
         .layui-flow-more {
             text-align: center;
             position: relative;
             top: 20px;
-            right: 10px;
+            right: 23px;
         }
+
         .mainpic {
             float: left;
             max-width: 155px;
         }
+
         .info {
             float: left;
             max-width: 248px;
             padding: 10px;
         }
+
         .info span {
             font: 14px Arial, Helvetica, sans-serif;
             line-height: 150%;
             color: #666666;
             line-height: 150%;
         }
+
     </style>
 </head>
 <body>
@@ -129,320 +134,115 @@
             <div class="layui-tab-content">
                 <div class="layui-tab-item layui-show">
                     <ul id="hotSearch" class="flow">
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>三国(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>东野圭吾(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>平凡世界(119)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>白夜行(102)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>java(76)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>三国(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>东野圭吾(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>平凡世界(119)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>白夜行(102)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>java(76)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>三国(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>东野圭吾(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>平凡世界(119)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>白夜行(102)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>java(76)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>三国(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>东野圭吾(217)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>平凡世界(119)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>白夜行(102)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item">
-                                <a>
-                                    <span>java(76)</span>
-                                </a>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
                 <div class="layui-tab-item">
                     <ul id="hotBorrow" class="flow">
-                        <li>
-                            <div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;border: 1px solid #f2f2f2;">
-                                <a>
-                                    <div class="mainpic">
-                                        <img src="../images/book/b2.jpg" style="width: 107px">
-                                    </div>
-                                    <div class="info">
-                                        <span>书名：</span>
-                                        蔡康永的说话之道
-                                        <br>
-                                        <span>作者：</span>
-                                        蔡康永
-                                        <br>
-                                        <span>出版社：</span>
-                                        湖南文艺出版社
-                                        <br>
-                                        <span>出版年：</span>
-                                        2014-7-1
-                                        <br>
-                                        <span>页数：</span>
-                                        224
-                                        <br>
-                                        <span>定价：</span>
-                                        30.00元
-                                        <br>
-                                        <span>豆瓣评分：</span>
-                                        7.2
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li style="margin-left: 340px;">
-                            <div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;border: 1px solid #f2f2f2;">
-                                <a>
-                                    <div class="mainpic">
-                                        <img src="../images/book/b2.jpg" style="width: 107px">
-                                    </div>
-                                    <div class="info">
-                                        <span>书名：</span>
-                                        蔡康永的说话之道
-                                        <br>
-                                        <span>作者：</span>
-                                        蔡康永
-                                        <br>
-                                        <span>出版社：</span>
-                                        湖南文艺出版社
-                                        <br>
-                                        <span>出版年：</span>
-                                        2014-7-1
-                                        <br>
-                                        <span>页数：</span>
-                                        224
-                                        <br>
-                                        <span>定价：</span>
-                                        30.00元
-                                        <br>
-                                        <span>豆瓣评分：</span>
-                                        7.2
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;border: 1px solid #f2f2f2;">
-                                <a>
-                                    <div class="mainpic">
-                                        <img src="../images/book/b2.jpg" style="width: 107px">
-                                    </div>
-                                    <div class="info">
-                                        <span>书名：</span>
-                                        蔡康永的说话之道
-                                        <br>
-                                        <span>作者：</span>
-                                        蔡康永
-                                        <br>
-                                        <span>出版社：</span>
-                                        湖南文艺出版社
-                                        <br>
-                                        <span>出版年：</span>
-                                        2014-7-1
-                                        <br>
-                                        <span>页数：</span>
-                                        224
-                                        <br>
-                                        <span>定价：</span>
-                                        30.00元
-                                        <br>
-                                        <span>豆瓣评分：</span>
-                                        7.2
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li style="margin-left: 340px;">
-                            <div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;border: 1px solid #f2f2f2;">
-                                <a>
-                                    <div class="mainpic">
-                                        <img src="../images/book/b2.jpg" style="width: 107px">
-                                    </div>
-                                    <div class="info">
-                                        <span>书名：</span>
-                                        蔡康永的说话之道
-                                        <br>
-                                        <span>作者：</span>
-                                        蔡康永
-                                        <br>
-                                        <span>出版社：</span>
-                                        湖南文艺出版社
-                                        <br>
-                                        <span>出版年：</span>
-                                        2014-7-1
-                                        <br>
-                                        <span>页数：</span>
-                                        224
-                                        <br>
-                                        <span>定价：</span>
-                                        30.00元
-                                        <br>
-                                        <span>豆瓣评分：</span>
-                                        7.2
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
-                <div class="layui-tab-item">3</div>
+                <div class="layui-tab-item">
+                    <ul id="hotBooks" class="flow">
+
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </div>
 <script src="../js/layui/layui.js"></script>
+<script src="../js/jquery-3.2.1.js"></script>
 <script>
     layui.use(['form', 'element', 'flow'], function () {
         var $ = layui.jquery;//不用额外加载jQuery，flow模块本身是有依赖jQuery的，直接用即可。
         var form = layui.form();
         var element = layui.element();
         var flow = layui.flow;
+        // 热门检索
         flow.load({
             elem: '#hotSearch' //流加载容器
             , done: function (page, next) { //执行下一页的回调
-                //模拟数据插入
-                setTimeout(function () {
-                    var lis = [];
-                    for (var i = 0; i < 20; i++) {
-                        lis.push('<li> <div class="nav-item"> <a> <span class="nav-txt">三国(217)</span> </a> </div> </li>')
+                var lis = [];
+                $.ajax({
+                    url: "/book/hotSearch?page=" + page,
+                    type: "post",
+                    data: "",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data) {
+                            layui.each(data.sw, function (index, searchWords) {
+                                if ((index+1)%3==0)
+                                    lis.push('<li style="height: 60px;"><a  href="/book/searchBooks?searchTypes='+searchWords.searchType+'&searchWords='+searchWords.searchWord+'&book_type='+searchWords.bookType+'"><div class="nav-item"> <span class="nav-txt">' + searchWords.searchWord + '(' + searchWords.searchNum + ')</span> </div> </a> </li>')
+                                else
+                                    lis.push('<li><a  href="/book/searchBooks?searchTypes='+searchWords.searchType+'&searchWords='+searchWords.searchWord+'&book_type='+searchWords.bookType+'"><div class="nav-item"> <span class="nav-txt">' + searchWords.searchWord + '(' + searchWords.searchNum + ')</span> </div> </a> </li>')
+                            });
+                            var length = Math.ceil(data.length/6);
+                            next(lis.join(''), page < length);
+                        }
+                    },
+                    error: function () {
+                        alert("ajax出错");
                     }
-                    //执行下一页渲染，第二参数为：满足“加载更多”的条件，即后面仍有分页
-                    //pages为Ajax返回的总页数，只有当前页小于总页数的情况下，才会继续出现加载更多
-                    next(lis.join(''), page < 10); //假设总页数为 10
-                }, 500);
+                });
             }
         });
+
+        // 热门借阅
         flow.load({
             elem: '#hotBorrow' //流加载容器
             , done: function (page, next) { //执行下一页的回调
-                //模拟数据插入
-                setTimeout(function () {
-                    var lis = [];
-                    for (var i = 0; i < 6; i++) {
-                        if (i%2==0)
-                            lis.push('<li><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../images/book/b2.jpg" style="width: 107px"></div><div class="info"><span>书名：</span>蔡康永的说话之道<br><span>作者：</span>蔡康永<br><span>出版社：</span>湖南文艺出版社<br><span>出版年：</span>2014-7-1<br><span>页数：</span>224<br><span>定价：</span>30.00元<br><span>豆瓣评分：</span>7.2</div></a></div></li>');
-                        else
-                            lis.push('<li style="margin-left: 340px;"><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../images/book/b2.jpg" style="width: 107px"></div><div class="info"><span>书名：</span>蔡康永的说话之道<br><span>作者：</span>蔡康永<br><span>出版社：</span>湖南文艺出版社<br><span>出版年：</span>2014-7-1<br><span>页数：</span>224<br><span>定价：</span>30.00元<br><span>豆瓣评分：</span>7.2</div></a></div></li>');
-
+                var lis = [];
+                $.ajax({
+                    url: "/book/hotBorrow?page=" + page,
+                    type: "post",
+                    data: "",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data) {
+                            layui.each(data.bl, function (index, book) {
+                                if (index % 2 == 0)
+                                    lis.push('<li><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../'+book.bookImage+'" style="width: 107px"></div><div class="info"><span>书名：</span>'+book.bookName+'<br><span>作者：</span>'+book.author+'<br><span>出版社：</span>'+book.press+'<br><span>出版年：</span>'+book.pressYear+'<br><span>页数：</span>'+book.pageNum+'<br><span>定价：</span>'+book.price+'元<br><span>豆瓣评分：</span>'+book.score+'分</div></a></div></li>');
+                                else
+                                    lis.push('<li style="margin-left: 340px;"><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../'+book.bookImage+'" style="width: 107px"></div><div class="info"><span>书名：</span>'+book.bookName+'<br><span>作者：</span>'+book.author+'<br><span>出版社：</span>'+book.press+'<br><span>出版年：</span>'+book.pressYear+'<br><span>页数：</span>'+book.pageNum+'<br><span>定价：</span>'+book.price+'元<br><span>豆瓣评分：</span>'+book.score+'分</div></a></div></li>');
+                            });
+                            var length = Math.ceil(data.length/4);
+                            next(lis.join(''), page < length);
+                        }
+                    },
+                    error: function () {
+                        alert("ajax出错");
                     }
-                    //执行下一页渲染，第二参数为：满足“加载更多”的条件，即后面仍有分页
-                    //pages为Ajax返回的总页数，只有当前页小于总页数的情况下，才会继续出现加载更多
-                    next(lis.join(''), page < 10); //假设总页数为 10
-                }, 500);
+                });
+            }
+        });
+
+        // 热门图书
+        flow.load({
+            elem: '#hotBooks' //流加载容器
+            , done: function (page, next) { //执行下一页的回调
+                var lis = [];
+                $.ajax({
+                    url: "/book/hotBooks?page=" + page,
+                    type: "post",
+                    data: "",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data) {
+                            layui.each(data.bl, function (index, book) {
+                                if (index % 2 == 0)
+                                    lis.push('<li><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../'+book.bookImage+'" style="width: 107px"></div><div class="info"><span>书名：</span>'+book.bookName+'<br><span>作者：</span>'+book.author+'<br><span>出版社：</span>'+book.press+'<br><span>出版年：</span>'+book.pressYear+'<br><span>页数：</span>'+book.pageNum+'<br><span>定价：</span>'+book.price+'元<br><span>豆瓣评分：</span>'+book.score+'分</div></a></div></li>');
+                                else
+                                    lis.push('<li style="margin-left: 340px;"><div class="nav-item" style="text-align: left;width: 300px;height: 166.4px;line-height: 0px;border: 1px solid #f2f2f2;"><a><div class="mainpic"><img src="../'+book.bookImage+'" style="width: 107px"></div><div class="info"><span>书名：</span>'+book.bookName+'<br><span>作者：</span>'+book.author+'<br><span>出版社：</span>'+book.press+'<br><span>出版年：</span>'+book.pressYear+'<br><span>页数：</span>'+book.pageNum+'<br><span>定价：</span>'+book.price+'元<br><span>豆瓣评分：</span>'+book.score+'分</div></a></div></li>');
+                            });
+                            var length = Math.ceil(data.length/4);
+                            next(lis.join(''), page < length);
+                        }
+                    },
+                    error: function () {
+                        alert("ajax出错");
+                    }
+                });
             }
         });
     });

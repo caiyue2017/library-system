@@ -3,53 +3,97 @@ package librarySystem.domain;
 public class Book {
     private String bookNO;
     private String bookName;
-    private Integer collectionNum;
-    private Integer borrowedNum;
     private String author;
     private String press;
+    private String pressYear;
     private String translator;
     private String bookDesc;
     private Integer pageNum;
     private String bookImage;
     private String bookType;
-    private String storeAddress;
     private String cnum;
     private Double price;
+    private int searchNum;
+    private int borrowNum;
+    private String score;
+    private int storeNumber;
+    private int borrowNumber;
+
+    public int getStoreNumber() {
+        return storeNumber;
+    }
+
+    public void setStoreNumber(int storeNumber) {
+        this.storeNumber = storeNumber;
+    }
+
+    public int getBorrowNumber() {
+        return borrowNumber;
+    }
+
+    public void setBorrowNumber(int borrowNumber) {
+        this.borrowNumber = borrowNumber;
+    }
 
     @Override
     public String toString() {
         return "Book{" +
                 "bookNO='" + bookNO + '\'' +
                 ", bookName='" + bookName + '\'' +
-                ", collectionNum=" + collectionNum +
-                ", borrowedNum=" + borrowedNum +
                 ", author='" + author + '\'' +
                 ", press='" + press + '\'' +
+                ", pressYear='" + pressYear + '\'' +
                 ", translator='" + translator + '\'' +
                 ", bookDesc='" + bookDesc + '\'' +
                 ", pageNum=" + pageNum +
                 ", bookImage='" + bookImage + '\'' +
                 ", bookType='" + bookType + '\'' +
-                ", storeAddress='" + storeAddress + '\'' +
                 ", cnum='" + cnum + '\'' +
                 ", price=" + price +
+                ", searchNum=" + searchNum +
+                ", borrowNum=" + borrowNum +
+                ", score='" + score + '\'' +
                 '}';
     }
 
-    public String getCnum() {
-        return cnum;
+    public String getPressYear() {
+        return pressYear;
     }
 
-    public void setCnum(String cnum) {
-        this.cnum = cnum;
+    public void setPressYear(String pressYear) {
+        this.pressYear = pressYear;
     }
 
-    public Double getPrice() {
-        return price;
+    public String getScore() {
+        return score;
     }
 
-    public void setPrice(Double price) {
-        this.price = price;
+    public void setScore(String score) {
+        this.score = score;
+    }
+
+    public String getBookNO() {
+        return bookNO;
+    }
+
+    public void setBookNO(String bookNO) {
+        this.bookNO = bookNO;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public String getPress() {
@@ -100,51 +144,35 @@ public class Book {
         this.bookType = bookType;
     }
 
-    public String getStoreAddress() {
-        return storeAddress;
+    public String getCnum() {
+        return cnum;
     }
 
-    public void setStoreAddress(String storeAddress) {
-        this.storeAddress = storeAddress;
+    public void setCnum(String cnum) {
+        this.cnum = cnum;
     }
 
-    public String getBookNO() {
-        return bookNO;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setBookNO(String bookNO) {
-        this.bookNO = bookNO;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
-    public String getBookName() {
-        return bookName;
+    public int getSearchNum() {
+        return searchNum;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
+    public void setSearchNum(int searchNum) {
+        this.searchNum = searchNum;
     }
 
-    public Integer getCollectionNum() {
-        return collectionNum;
+    public int getBorrowNum() {
+        return borrowNum;
     }
 
-    public void setCollectionNum(Integer collectionNum) {
-        this.collectionNum = collectionNum;
-    }
-
-    public Integer getBorrowedNum() {
-        return borrowedNum;
-    }
-
-    public void setBorrowedNum(Integer borrowedNum) {
-        this.borrowedNum = borrowedNum;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
+    public void setBorrowNum(int borrowNum) {
+        this.borrowNum = borrowNum;
     }
 }

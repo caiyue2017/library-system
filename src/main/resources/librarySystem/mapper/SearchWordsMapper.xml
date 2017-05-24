@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="librarySystem.dao.SearchWordsDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.SearchWords">
+        <id column="searchWord" property="searchWord" jdbcType="VARCHAR"/>
+        <result column="searchType" property="searchType" jdbcType="VARCHAR"/>
+        <result column="bookType" property="bookType" jdbcType="VARCHAR"/>
+        <result column="searchNum" property="searchNum" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="find" resultMap="baseResultMap">
+        select * from searchwords where searchWord = #{searchWord}
+    </select>
+
+    <select id="findAllAndOrder" resultMap="baseResultMap">
+        select * from searchwords order by searchNum desc LIMIT #{page},#{pageNum};
+    </select>
+
+    <select id="findAll" resultMap="baseResultMap">
+        select * from searchwords
+    </select>
+
+    <update id="addSearchNum">
+        update searchwords set searchNum = searchNum + 1 where searchWord = #{searchWord}
+    </update>
+
+    <insert id="add">
+        insert into searchwords values(#{searchWord},#{searchType},#{bookType},#{searchNum});
+    </insert>
+</mapper>

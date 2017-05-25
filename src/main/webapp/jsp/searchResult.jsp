@@ -113,7 +113,7 @@
             color: #666;
             font: 12px/1.8 "宋体", Arial, "微软雅黑";
             text-align: left;
-            margin-top: 5%;
+            margin-top: 3.8%;
         }
 
         .mb40 {
@@ -354,7 +354,7 @@
             </div>
         </div>
         <%--好评榜--%>
-        <div id="goodScore" class="right">
+        <%--<div id="goodScore" class="right">
             <div class="rankTitle">
                 <h3>好评榜</h3>
             </div>
@@ -365,7 +365,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>--%>
     </div>
 </div>
 <script src="../js/layui/layui.js"></script>
@@ -374,12 +374,15 @@
     $(function () {
         showSearchResult(1);
         totalHits();
+        newBooks();
+        hotBorrow();
+//        goodScore();
     });
     // 总页数
     var pages;
     // 展示搜索结果
     function showSearchResult(curr) {
-        var num = 2;
+        var num = 8;
         $.ajax({
             url: "/book/searchResult?page=" + curr,
             type: "post",
@@ -394,7 +397,10 @@
                     $("#searchResult li").remove();
                     for (var i = begin; i <= end; i++) {
                         var book = books[i - 1];
-                        var li = '<li class="subject-item"> <div class="pic"> <a class="nbg"> <img src="../' + book.bookImage + '" width="90"> </a> </div> <div class="info"> <h2> <a href="#">' + book.bookName + '</a>' + book.bookNO + '<span>' + book.bookType + '</span> </h2> <div class="pub">' + book.author + ' / ' + book.translator + ' / ' + book.press + '/ ' + book.pressYear + ' / ' + book.price + '元<span>馆藏复本：' + book.storeNumber + ' </span></div> <div class="pub">豆瓣评分：' + book.score + '分<span>可借复本：' + book.borrowNumber + '</span></div> </div> </li>';
+                        var li = '<li class="subject-item"> <div class="pic"> <a class="nbg"> <img src="../' + book.bookImage + '" width="90"> </a> </div> <div class="info"> <h2> <a href="#">' + book.bookName + '</a>' + book.bookNO + '<span>' + book.bookType + '</span> </h2> <div class="pub">' + book.author + ' /';
+                        if (book.translator!=null)
+                            li = li + book.translator + ' / ';
+                        li =  li + book.press + '/ ' + book.pressYear + ' / ' + book.price + '元<span>馆藏复本：' + book.storeNumber + ' </span></div> <div class="pub">豆瓣评分：' + book.score + '分<span>可借复本：' + book.borrowNumber + '</span></div> </div> </li>';
                         $("#searchResult").append(li);
                     }
                 }
@@ -439,7 +445,7 @@
                 if (data) {
                     var books = data.books;
                     $("#totalHits ul li").remove();
-                    for (var i = 0; i < 8; i++) {
+                    for (var i = 0; i < 10; i++) {
                         var book = books[i];
                         if (i == 0)
                             var li = '<li><div class="hoverHide" style="display: none;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: block;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
@@ -461,8 +467,104 @@
         });
     }
     // 新书速递
+    function newBooks() {
+        $.ajax({
+            url: "/book/newBooks",
+            type: "post",
+            data: "",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                if (data) {
+                    var books = data.books;
+                    $("#newBooks ul li").remove();
+                    for (var i = 0; i < 10; i++) {
+                        var book = books[i];
+                        if (i == 0)
+                            var li = '<li><div class="hoverHide" style="display: none;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: block;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        else
+                            var li = '<li><div class="hoverHide" style="display: block;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: none;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        $("#newBooks ul ").append(li);
+                    }
+                }
+            },
+            error: function () {
+                alert("总点击排行榜出错！");
+            }
+        });
+        $("#newBooks ul li").hover(function () {
+            $("#newBooks .hoverHide").css("display", "block");
+            $("#newBooks .detailWrap").css("display", "none");
+            $(this).children('.hoverHide').css("display", "none");
+            $(this).children('.detailWrap').css("display", "block");
+        });
+    }
     // 热门借阅
+    function hotBorrow() {
+        $.ajax({
+            url: "/book/hotBorrowInResult",
+            type: "post",
+            data: "",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                if (data) {
+                    var books = data.books;
+                    $("#hotBorrow ul li").remove();
+                    for (var i = 0; i < 10; i++) {
+                        var book = books[i];
+                        if (i == 0)
+                            var li = '<li><div class="hoverHide" style="display: none;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: block;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        else
+                            var li = '<li><div class="hoverHide" style="display: block;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: none;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        $("#hotBorrow ul ").append(li);
+                    }
+                }
+            },
+            error: function () {
+                alert("总点击排行榜出错！");
+            }
+        });
+        $("#hotBorrow ul li").hover(function () {
+            $("#hotBorrow .hoverHide").css("display", "block");
+            $("#hotBorrow .detailWrap").css("display", "none");
+            $(this).children('.hoverHide').css("display", "none");
+            $(this).children('.detailWrap').css("display", "block");
+        });
+    }
     // 好评榜
+    function goodScore() {
+        $.ajax({
+            url: "/book/goodScore",
+            type: "post",
+            data: "",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                if (data) {
+                    var books = data.books;
+                    $("#goodScore ul li").remove();
+                    for (var i = 0; i < 10; i++) {
+                        var book = books[i];
+                        if (i == 0)
+                            var li = '<li><div class="hoverHide" style="display: none;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: block;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        else
+                            var li = '<li><div class="hoverHide" style="display: block;"><em>' + book.searchNum + '</em><span class="num">' + (i + 1) + '</span><a href="#">' + book.bookName + '</a></div><div class="detailWrap" style="display: none;"><span class="num">' + (i + 1) + '</span><a href="#"><img src="../' + book.bookImage + '"></a><div class="detailInfo"><h4><a href="#">' + book.bookName + '</a></h4><p>作者：<i>' + book.author + '</i></p><p>编号：<i>' + book.bookNO + '</i></p></div></div></li>';
+                        $("#goodScore ul ").append(li);
+                    }
+                }
+            },
+            error: function () {
+                alert("总点击排行榜出错！");
+            }
+        });
+        $("#goodScore ul li").hover(function () {
+            $("#goodScore .hoverHide").css("display", "block");
+            $("#goodScore .detailWrap").css("display", "none");
+            $(this).children('.hoverHide').css("display", "none");
+            $(this).children('.detailWrap').css("display", "block");
+        });
+    }
 </script>
 </body>
 </html>

@@ -20,6 +20,7 @@
         <result column="score" property="score" jdbcType="VARCHAR"/>
         <result column="storeNumber" property="storeNumber" jdbcType="VARCHAR"/>
         <result column="borrowNumber" property="borrowNumber" jdbcType="VARCHAR"/>
+        <result column="addTime" property="addTime" jdbcType="DATE"/>
     </resultMap>
 
     <select id="getAllBooks" resultMap="baseResultMap">
@@ -64,5 +65,17 @@
 
     <select id="findSearchNumAndOrder" resultMap="baseResultMap">
         select * from book order by searchNum DESC
+    </select>
+
+    <select id="orderAddTime" resultMap="baseResultMap">
+        SELECT * FROM book ORDER BY ADDTIME DESC;
+    </select>
+
+    <select id="orderByBorrowNum" resultMap="baseResultMap">
+        SELECT * FROM book ORDER BY borrowNum DESC;
+    </select>
+
+    <select id="orderByScore" resultMap="baseResultMap">
+        SELECT * FROM book ORDER BY score DESC;
     </select>
 </mapper>

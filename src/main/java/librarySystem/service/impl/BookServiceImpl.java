@@ -51,4 +51,16 @@ public class BookServiceImpl implements BookService{
     public List<Book> findSearchNumAndOrder() {
         return bookDao.findSearchNumAndOrder();
     }
+
+    public List<Book> orderAddTime() {
+        return bookDao.orderAddTime();
+    }
+
+    public List<Book> orderByBorrowNum() {
+        return bookDao.orderByBorrowNum();
+    }
+
+    public List<Book> orderByScore() {
+        return bookDao.orderByScore();
+    }
 }

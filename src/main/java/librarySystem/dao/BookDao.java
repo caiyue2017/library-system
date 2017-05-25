@@ -23,4 +23,10 @@ public interface BookDao {
     List<Book> findBorrowNumAndOrder();
 
     List<Book> findSearchNumAndOrder();
+
+    List<Book> orderAddTime();
+
+    List<Book> orderByBorrowNum();
+
+    List<Book> orderByScore();
 }

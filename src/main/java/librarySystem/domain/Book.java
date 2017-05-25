@@ -1,5 +1,7 @@
 package librarySystem.domain;
 
+import java.util.Date;
+
 public class Book {
     private String bookNO;
     private String bookName;
@@ -18,6 +20,15 @@ public class Book {
     private String score;
     private int storeNumber;
     private int borrowNumber;
+    private Date addTime;
+
+    public Date getAddTime() {
+        return addTime;
+    }
+
+    public void setAddTime(Date addTime) {
+        this.addTime = addTime;
+    }
 
     public int getStoreNumber() {
         return storeNumber;
@@ -35,26 +46,6 @@ public class Book {
         this.borrowNumber = borrowNumber;
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "bookNO='" + bookNO + '\'' +
-                ", bookName='" + bookName + '\'' +
-                ", author='" + author + '\'' +
-                ", press='" + press + '\'' +
-                ", pressYear='" + pressYear + '\'' +
-                ", translator='" + translator + '\'' +
-                ", bookDesc='" + bookDesc + '\'' +
-                ", pageNum=" + pageNum +
-                ", bookImage='" + bookImage + '\'' +
-                ", bookType='" + bookType + '\'' +
-                ", cnum='" + cnum + '\'' +
-                ", price=" + price +
-                ", searchNum=" + searchNum +
-                ", borrowNum=" + borrowNum +
-                ", score='" + score + '\'' +
-                '}';
-    }
 
     public String getPressYear() {
         return pressYear;

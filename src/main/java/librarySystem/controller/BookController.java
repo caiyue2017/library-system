@@ -181,11 +181,40 @@ public class BookController {
     }
 
     // -----检索结果的侧边栏start------
+
+    /**
+     * 总点击排行榜
+     * @return
+     */
     @RequestMapping("/totalHits")
     @ResponseBody
     public Map<String, Object> totalHits() {
         Map<String, Object> map = new HashMap<String, Object>();
         List<Book> books = bookService.findSearchNumAndOrder();
+        map.put("books", books);
+        return map;
+    }
+    @RequestMapping("/newBooks")
+    @ResponseBody
+    public Map<String, Object> newBooks() {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Book> books = bookService.orderAddTime();
+        map.put("books", books);
+        return map;
+    }
+    @RequestMapping("/hotBorrowInResult")
+    @ResponseBody
+    public Map<String, Object> hotBorrowInResult() {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Book> books = bookService.orderByBorrowNum();
+        map.put("books", books);
+        return map;
+    }
+    @RequestMapping("/goodScore")
+    @ResponseBody
+    public Map<String, Object> goodScore() {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Book> books = bookService.orderByScore();
         map.put("books", books);
         return map;
     }

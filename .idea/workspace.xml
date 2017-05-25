@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e750d136-54fe-442f-95bf-19c7b13b82e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookCLCDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/dao/SearchWordsDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/domain/BookCLC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/domain/SearchWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/BookCLCService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/SearchWordsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookCLCServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/SearchWordsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookCLCMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/SearchWordsMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book/b9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/book.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/dao/BookDao.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/dao/BookDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/domain/Book.class" afterPath="$PROJECT_DIR$/target/classes/librarySystem/domain/Book.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,7 +19,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/librarySystem/mapper/BookMapper.xml" afterPath="$PROJECT_DIR$/target/classes/librarySystem/mapper/BookMapper.xml" />
     </list>
@@ -53,16 +41,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="searchResult.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="searchResult.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="412" column="0" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="280" column="27" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
               <folding>
-                <marker date="1495608623259" expanded="true" signature="12139:12153" ph="..." />
-                <marker date="1495608623259" expanded="true" signature="12300:12315" ph="..." />
-                <marker date="1495608623259" expanded="true" signature="12673:12688" ph="..." />
-                <marker date="1495608623259" expanded="true" signature="12835:12849" ph="..." />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#9599#11073#0#HTML" expanded="false" />
+                <marker date="1495675101841" expanded="true" signature="12335:12349" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="12496:12511" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="12869:12884" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="13031:13045" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="14400:14414" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="14561:14576" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="14934:14949" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="15096:15110" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="16472:16486" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="16633:16648" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="17006:17021" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="17168:17182" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="18539:18553" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="18700:18715" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="19073:19088" ph="..." />
+                <marker date="1495675101841" expanded="true" signature="19235:19249" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchBooks.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="204" column="270" selection-start-line="204" selection-start-column="266" selection-end-line="204" selection-end-column="270" />
+              <folding>
+                <marker date="1495511136288" expanded="true" signature="5306:5319" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="6953:7042" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="7108:7120" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="7515:7534" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="7565:7654" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="7720:7732" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="9024:9113" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="9179:9191" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="9586:9605" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="9636:9725" ph="..." />
+                <marker date="1495511136288" expanded="true" signature="9791:9803" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/book.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,20 +160,21 @@
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/SearchWordsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/SearchWordsDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/SearchWordsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/domain/BookCLC.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookCLC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookCLCMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/BookCLCService.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookCLCServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookCLCDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/book.jsp" />
       </list>
     </option>
   </component>
@@ -168,10 +205,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="163" />
+    <option name="y" value="142" />
+    <option name="width" value="1713" />
+    <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,6 +235,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -630,8 +669,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -648,23 +685,23 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\jsp" />
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images\book" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\resources\librarySystem\mapper" />
       <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\js" />
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\WEB-INF" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="librarySystem.service.impl" />
       <recent name="librarySystem.service" />
       <recent name="librarySystem.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\resources\librarySystem\mapper" />
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images\book" />
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\js" />
-      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\images" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\jsp" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\js" />
+      <recent name="D:\Java\cy workspace\Project\LibrarySystem\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1329,7 +1366,9 @@
       <workItem from="1495501347647" duration="11747000" />
       <workItem from="1495520193449" duration="8836000" />
       <workItem from="1495585926730" duration="13310000" />
-      <workItem from="1495605865936" duration="2555000" />
+      <workItem from="1495605865936" duration="2845000" />
+      <workItem from="1495621164822" duration="650000" />
+      <workItem from="1495670215046" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1495096698503</created>
@@ -1373,7 +1412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495343554647</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="搜索结果">
+      <created>1495608741695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495608741695</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1409,7 +1455,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91418000" />
+    <option name="totallyTimeSpent" value="99180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1421,7 +1467,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="163" y="142" width="1713" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1429,26 +1475,26 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33084577" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33033708" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37288135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3363029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2079314" sideWeight="0.48510638" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2084095" sideWeight="0.48510638" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30336353" sideWeight="0.5148936" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1483,11 +1529,12 @@
     <MESSAGE value="xml修改" />
     <MESSAGE value="test" />
     <MESSAGE value="搜索" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索" />
+    <MESSAGE value="搜索结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索结果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1496,15 +1543,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1557,14 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="661" column="19" selection-start-line="661" selection-start-column="1" selection-end-line="661" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1758,10 +1788,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+          <folding>
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding>
+            <marker date="1495672299382" expanded="true" signature="1665:1683" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="1767:1836" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="1927:2020" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="2106:2173" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="2266:2357" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="2439:2506" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="2595:2686" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="2771:2837" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="2929:3019" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="3109:3151" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="3241:3283" ph="select * fro... book" />
+            <marker date="1495672299382" expanded="true" signature="3364:3404" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="3490:3532" ph="SELECT * FRO... book" />
+            <marker date="1495672299382" expanded="true" signature="3614:3652" ph="SELECT * FRO... book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="148" column="23" selection-start-line="148" selection-start-column="22" selection-end-line="148" selection-end-column="23" />
+          <folding>
+            <element signature="e#6779#6795#0" expanded="true" />
+            <element signature="e#7071#7087#0" expanded="true" />
+            <element signature="e#7351#7367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchBooks.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5160">
-          <caret line="172" column="35" selection-start-line="167" selection-start-column="19" selection-end-line="172" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="204" column="270" selection-start-line="204" selection-start-column="266" selection-end-line="204" selection-end-column="270" />
           <folding>
             <marker date="1495511136288" expanded="true" signature="5306:5319" ph="..." />
             <marker date="1495511136288" expanded="true" signature="6953:7042" ph="..." />
@@ -1778,80 +1903,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/service/BookService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/dao/BookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/librarySystem/mapper/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-          <folding>
-            <marker date="1495522595373" expanded="true" signature="1595:1613" ph="SELECT * FRO... book" />
-            <marker date="1495522595373" expanded="true" signature="1697:1766" ph="SELECT * FRO... book" />
-            <marker date="1495522595373" expanded="true" signature="1857:1950" ph="select * fro... book" />
-            <marker date="1495522595373" expanded="true" signature="2036:2103" ph="SELECT * FRO... book" />
-            <marker date="1495522595373" expanded="true" signature="2196:2287" ph="select * fro... book" />
-            <marker date="1495522595373" expanded="true" signature="2369:2436" ph="SELECT * FRO... book" />
-            <marker date="1495522595373" expanded="true" signature="2525:2616" ph="select * fro... book" />
-            <marker date="1495522595373" expanded="true" signature="2701:2767" ph="SELECT * FRO... book" />
-            <marker date="1495522595373" expanded="true" signature="2859:2949" ph="select * fro... book" />
-            <marker date="1495522595373" expanded="true" signature="3039:3081" ph="select * fro... book" />
-            <marker date="1495522595373" expanded="true" signature="3171:3213" ph="select * fro... book" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/librarySystem/domain/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/searchResult.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="412" column="0" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="280" column="27" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
           <folding>
-            <marker date="1495608623259" expanded="true" signature="12139:12153" ph="..." />
-            <marker date="1495608623259" expanded="true" signature="12300:12315" ph="..." />
-            <marker date="1495608623259" expanded="true" signature="12673:12688" ph="..." />
-            <marker date="1495608623259" expanded="true" signature="12835:12849" ph="..." />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#9599#11073#0#HTML" expanded="false" />
+            <marker date="1495675101841" expanded="true" signature="12335:12349" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="12496:12511" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="12869:12884" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="13031:13045" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="14400:14414" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="14561:14576" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="14934:14949" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="15096:15110" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="16472:16486" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="16633:16648" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="17006:17021" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="17168:17182" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="18539:18553" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="18700:18715" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="19073:19088" ph="..." />
+            <marker date="1495675101841" expanded="true" signature="19235:19249" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/book.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

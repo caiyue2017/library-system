@@ -17,4 +17,7 @@
         SELECT * FROM bookclc WHERE STATUS = '可借' and bookNO = #{bookNO};
     </select>
 
+    <update id="updateStatus">
+        update bookclc set status = '借出' where barCode = #{barCode}
+    </update>
 </mapper>

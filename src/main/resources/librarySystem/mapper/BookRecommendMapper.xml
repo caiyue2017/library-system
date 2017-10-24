@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="librarySystem.dao.BookRecommendDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.BookRecommend">
+        <id property="credNum" column="credNum" jdbcType="BIGINT"/>
+        <id property="bookId" column="bookId" jdbcType="BIGINT"/>
+        <result column="preference" property="preference" jdbcType="FLOAT"/>
+    </resultMap>
+    <select id="findTheirLike" resultType="Integer">
+        SELECT r1.`bookId` FROM book_recommend r1,book_recommend r2 WHERE r1.`credNum`=#{credNum1} AND r2.`credNum`=#{credNum2} AND r1.`bookId` = r2.`bookId`;
+    </select>
+    <select id="findPerference" resultType="float">
+        SELECT preference from book_recommend where credNum = #{credNum} and bookId = #{bookId}
+    </select>
+    <select id="findReaders" resultType="Integer">
+        SELECT distinct credNum from book_recommend
+    </select>
+    <select id="findBooks" resultType="Integer">
+        select bookId from book_recommend where credNum = #{credNum}
+    </select>
+    <select id="findReadersByBookId" resultMap="baseResultMap">
+        SELECT * FROM book_recommend WHERE bookId = #{bookId} AND credNum = #{credNum};
+    </select>
+</mapper>

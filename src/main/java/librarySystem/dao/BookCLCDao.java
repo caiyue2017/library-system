@@ -9,4 +9,6 @@ public interface BookCLCDao {
     List<BookCLC> findByBookNO(@Param("bookNO") String bookNO);
 
     List<BookCLC> findByStatus(@Param("bookNO") String bookNO);
+
+    void updateStatus(@Param("barCode") String barCode);
 }

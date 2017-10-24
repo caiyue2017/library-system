@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="librarySystem.dao.ReaderDao">
+    <resultMap id="baseResultMao" type="librarySystem.domain.Reader">
+        <id column="cred_num" property="credNum" jdbcType="CHAR"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="start_time" property="startTime" jdbcType="DATE"/>
+        <result column="end_time" property="endTime" jdbcType="DATE"/>
+        <result column="max_available" property="maxAvailable" jdbcType="INTEGER"/>
+        <result column="reader_type" property="readerType" jdbcType="VARCHAR"/>
+        <result column="cum_avail_num" property="cumAvailNum" jdbcType="INTEGER"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+    </resultMap>
+</mapper>

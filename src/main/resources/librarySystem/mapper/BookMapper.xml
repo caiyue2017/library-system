@@ -4,8 +4,12 @@
 <mapper namespace="librarySystem.dao.BookDao">
     <resultMap id="baseResultMap" type="librarySystem.domain.Book">
         <id column="bookNO" property="bookNO" jdbcType="VARCHAR"/>
+        <result column="bookId" property="bookId" jdbcType="INTEGER"/>
+        <result column="ISBN" property="ISBN" jdbcType="VARCHAR"/>
         <result column="bookName" property="bookName" jdbcType="VARCHAR"/>
+        <result column="subHead" property="subHead" jdbcType="VARCHAR"/>
         <result column="author" property="author" jdbcType="VARCHAR"/>
+        <result column="author_desc" property="authorDesc" jdbcType="VARCHAR"/>
         <result column="press" property="press" jdbcType="VARCHAR"/>
         <result column="pressYear" property="pressYear" jdbcType="VARCHAR"/>
         <result column="translator" property="translator" jdbcType="VARCHAR"/>
@@ -18,9 +22,12 @@
         <result column="searchNum" property="searchNum" jdbcType="INTEGER"/>
         <result column="borrowNum" property="borrowNum" jdbcType="INTEGER"/>
         <result column="score" property="score" jdbcType="VARCHAR"/>
+        <result column="scoreNumber" property="scoreNum" jdbcType="INTEGER"/>
         <result column="storeNumber" property="storeNumber" jdbcType="VARCHAR"/>
         <result column="borrowNumber" property="borrowNumber" jdbcType="VARCHAR"/>
         <result column="addTime" property="addTime" jdbcType="DATE"/>
+        <result column="short_catalog" property="shortCatalog" jdbcType="LONGVARCHAR"/>
+        <result column="long_catalog" property="longCatalog" jdbcType="LONGVARCHAR"/>
     </resultMap>
 
     <select id="getAllBooks" resultMap="baseResultMap">
@@ -77,5 +84,21 @@
 
     <select id="orderByScore" resultMap="baseResultMap">
         SELECT * FROM book ORDER BY score DESC;
+    </select>
+
+    <select id="findOtherBooksByAuthor" resultMap="baseResultMap">
+        SELECT * FROM book where author = #{author};
+    </select>
+
+    <select id="findSimilarBooksByCnum" resultMap="baseResultMap">
+        SELECT * FROM book WHERE cnum = #{cnum} ORDER BY borrowNum DESC;
+    </select>
+
+    <select id="findBookByBookNO" resultMap="baseResultMap">
+        select * from book where bookNO = #{bookNO}
+    </select>
+    
+    <select id="findBookByBookId" resultMap="baseResultMap">
+        select * from book where bookId = #{id};
     </select>
 </mapper>

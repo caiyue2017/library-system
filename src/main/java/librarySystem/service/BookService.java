@@ -28,4 +28,12 @@ public interface BookService {
     List<Book> orderByBorrowNum();
 
     List<Book> orderByScore();
+
+    List<Book> findOtherBooksByAuthor(String author);
+
+    List<Book> findSimilarBooksByCnum(String cnum);
+
+    Book findBookByBookNO(String bookNO);
+
+    Book findBookByBookId(int bookId);
 }

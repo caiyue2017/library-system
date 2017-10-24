@@ -3,9 +3,13 @@ package librarySystem.domain;
 import java.util.Date;
 
 public class Book {
+    private int bookId;
     private String bookNO;
+    private String ISBN;
     private String bookName;
+    private String subHead;
     private String author;
+    private String authorDesc;
     private String press;
     private String pressYear;
     private String translator;
@@ -18,9 +22,68 @@ public class Book {
     private int searchNum;
     private int borrowNum;
     private String score;
+    private int scoreNum;
     private int storeNumber;
     private int borrowNumber;
     private Date addTime;
+    private String shortCatalog;
+    private String longCatalog;
+
+    public int getBookId() {
+        return bookId;
+    }
+
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
+    }
+
+    public String getShortCatalog() {
+        return shortCatalog;
+    }
+
+    public void setShortCatalog(String shortCatalog) {
+        this.shortCatalog = shortCatalog;
+    }
+
+    public String getLongCatalog() {
+        return longCatalog;
+    }
+
+    public void setLongCatalog(String longCatalog) {
+        this.longCatalog = longCatalog;
+    }
+
+    public String getAuthorDesc() {
+        return authorDesc;
+    }
+
+    public void setAuthorDesc(String authorDesc) {
+        this.authorDesc = authorDesc;
+    }
+
+    public int getScoreNum() {
+        return scoreNum;
+    }
+
+    public void setScoreNum(int scoreNum) {
+        this.scoreNum = scoreNum;
+    }
+
+    public String getISBN() {
+        return ISBN;
+    }
+
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
+    }
+
+    public String getSubHead() {
+        return subHead;
+    }
+
+    public void setSubHead(String subHead) {
+        this.subHead = subHead;
+    }
 
     public Date getAddTime() {
         return addTime;

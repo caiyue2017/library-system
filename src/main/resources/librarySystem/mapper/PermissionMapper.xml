@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="librarySystem.dao.PermissionDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.Permission">
+        <id column="pid" property="pid" jdbcType="INTEGER"/>
+        <result column="pname" property="pname" jdbcType="VARCHAR"/>
+        <result column="pdesc" property="pdesc" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="find" resultType="librarySystem.domain.Permission">
+        SELECT *
+        FROM permission
+        WHERE pid = #{pid};
+    </select>
+</mapper>

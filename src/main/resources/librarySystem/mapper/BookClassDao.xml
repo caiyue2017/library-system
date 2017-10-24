@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="librarySystem.dao.BookClassDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.BookClass">
+        <id property="cnum" column="cnum" jdbcType="CHAR"/>
+        <result column="cname" property="cname" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="findByCNum" resultMap="baseResultMap">
+        select * from book_class where cnum = #{cnum}
+    </select>
+</mapper>

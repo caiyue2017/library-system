@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="librarySystem.dao.ReaderBookDao">
+    <resultMap id="baseResultMap" type="librarySystem.domain.ReaderBook">
+        <id property="bookNO" column="bookNO" jdbcType="VARCHAR"/>
+        <id property="credNum" column="cred_num" jdbcType="CHAR"/>
+        <result property="returnDate" column="return_date" jdbcType="DATE"/>
+        <result property="borrowDate" column="borrow_date" jdbcType="DATE"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <insert id="add">
+        INSERT INTO reader_book VALUES (#{credNum},#{barCode},#{bookNO},#{returnDate},#{borrowDate},#{status});
+    </insert>
+</mapper>

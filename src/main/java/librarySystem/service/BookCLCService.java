@@ -15,4 +15,6 @@ public interface BookCLCService {
     List<BookCLC> findByBookNO(String bookNO);
 
     List<BookCLC> findByStatus(String bookNO);
+
+    void updateStatus(String barCode);
 }

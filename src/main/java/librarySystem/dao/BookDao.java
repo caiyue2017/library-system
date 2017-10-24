@@ -29,4 +29,12 @@ public interface BookDao {
     List<Book> orderByBorrowNum();
 
     List<Book> orderByScore();
+
+    List<Book> findOtherBooksByAuthor(@Param("author") String author);
+
+    List<Book> findSimilarBooksByCnum(@Param("cnum") String cnum);
+
+    Book findBookByBookNO(@Param("bookNO") String bookNO);
+
+    Book findBookByBookId(@Param("id") int bookId);
 }

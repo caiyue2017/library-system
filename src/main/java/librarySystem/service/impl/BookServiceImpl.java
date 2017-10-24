@@ -63,4 +63,20 @@ public class BookServiceImpl implements BookService{
     public List<Book> orderByScore() {
         return bookDao.orderByScore();
     }
+
+    public List<Book> findOtherBooksByAuthor(String author) {
+        return bookDao.findOtherBooksByAuthor(author);
+    }
+
+    public List<Book> findSimilarBooksByCnum(String cnum) {
+        return bookDao.findSimilarBooksByCnum(cnum);
+    }
+
+    public Book findBookByBookNO(String bookNO) {
+        return bookDao.findBookByBookNO(bookNO);
+    }
+
+    public Book findBookByBookId(int bookId) {
+        return bookDao.findBookByBookId(bookId);
+    }
 }

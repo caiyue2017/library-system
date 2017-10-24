@@ -2,17 +2,31 @@ package librarySystem.controller;
 
 import librarySystem.domain.Book;
 import librarySystem.domain.BookCLC;
+import librarySystem.domain.BookClass;
 import librarySystem.domain.SearchWords;
-import librarySystem.service.BookCLCService;
-import librarySystem.service.BookService;
-import librarySystem.service.SearchWordsService;
+import librarySystem.service.*;
+import librarySystem.util.BookRecommendUtil;
+import librarySystem.util.MyPPMCC;
+import org.apache.mahout.cf.taste.common.TasteException;
+import org.apache.mahout.cf.taste.impl.model.jdbc.MySQLJDBCDataModel;
+import org.apache.mahout.cf.taste.impl.model.jdbc.ReloadFromJDBCDataModel;
+import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
+import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
+import org.apache.mahout.cf.taste.impl.similarity.EuclideanDistanceSimilarity;
+import org.apache.mahout.cf.taste.model.JDBCDataModel;
+import org.apache.mahout.cf.taste.recommender.RecommendedItem;
+import org.apache.mahout.cf.taste.recommender.Recommender;
+import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.sql.DataSource;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -28,6 +42,14 @@ public class BookController {
     SearchWordsService searchWordsService;
     @Resource
     BookCLCService bookCLCService;
+    @Resource
+    BookClassService bookClassService;
+    @Resource
+    ReaderBookService readerBookService;
+    @Resource
+    DataSource dataSource;
+    @Resource
+    BookRecommendService bookRecommendService;
 
     /**
      * 书籍检索
@@ -161,6 +183,30 @@ public class BookController {
         map.put("bl", returnList);
         return map;
     }
+
+    @RequestMapping("/guessYouLike")
+    @ResponseBody
+    public Map<String, Object> guessYouLike() throws TasteException {
+        Map<String, Object> map = new HashMap<String, Object>();
+        // 推荐算法实现：
+        // 目标用户
+        Integer targetReader = 142253;
+        // 相邻用户数
+        int neighbour = 2;
+        // 推荐书籍数
+        int recommendBooks = 1;
+        BookRecommendUtil bookRecommendUtil = new BookRecommendUtil(bookRecommendService);
+        // 采用皮尔逊相关系数计算相似度
+        List<Integer> books = bookRecommendUtil.bookRecommend(targetReader,neighbour,recommendBooks,new MyPPMCC(bookRecommendService),-1);
+        List<Book> returnList = new LinkedList<Book>();
+        for (int bookId:books){
+            Book book = bookService.findBookByBookId(bookId);
+            returnList.add(book);
+        }
+        System.out.println(books);
+        map.put("bl", returnList);
+        return map;
+    }
     // -----检索页面的推荐栏end------
 
 
@@ -219,4 +265,82 @@ public class BookController {
         return map;
     }
     // -----检索结果的侧边栏end------
+
+    // -----书籍详情的侧边栏 start------
+    @RequestMapping("/authorBook")
+    @ResponseBody
+    public Map<String, Object> authorBook(String author) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Book> books = bookService.findOtherBooksByAuthor(author);
+        map.put("books", books);
+        return map;
+    }
+    @RequestMapping("/similarBooks")
+    @ResponseBody
+    public Map<String, Object> similarBooks(String cnum) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Book> books = bookService.findSimilarBooksByCnum(cnum);
+        map.put("books", books);
+        return map;
+    }
+
+    // -----书籍详情的侧边栏 end------
+
+    /**
+     * 书籍链接
+     * @param bookId
+     * @param request
+     * @return
+     */
+    @RequestMapping("/findBook")
+    public String findBook(String bookId,HttpServletRequest request){
+        Book book = bookService.findBookByBookId(Integer.parseInt(bookId));
+        if (book!=null) {
+            request.setAttribute("book", book);
+            BookClass bookClass = bookClassService.findByCNum(book.getCnum());
+            if (bookClass!=null)
+                request.setAttribute("cname",bookClass.getCname());
+            List<BookCLC> bookCLCList = bookCLCService.findByBookNO(book.getBookNO());
+            if (bookCLCList.size()>0)
+                request.setAttribute("bclcList",bookCLCList);
+        }
+        return "book";
+    }
+
+    @RequestMapping("/borrowBook")
+    public void borrowBook(String credNum,String barCode,String bookNO,HttpServletResponse response) throws IOException {
+        String status = "借出";
+        Calendar cal = Calendar.getInstance();
+        Date borrowDate = cal.getTime();
+        cal.add(Calendar.MONTH,1);
+        Date returnDate = cal.getTime();
+        readerBookService.add(credNum,barCode,bookNO,returnDate,borrowDate,status);
+        bookCLCService.updateStatus(barCode);
+        response.getWriter().write("success");
+    }
+
+    @RequestMapping("/guessYouLikeByThis")
+    @ResponseBody
+    public Map<String, Object> guessYouLikeByThis(int targetBook) throws TasteException {
+        System.out.println(targetBook);
+        Map<String, Object> map = new HashMap<String, Object>();
+        // 推荐算法实现：
+        // 目标用户
+        Integer targetReader = 142255;
+        // 相邻用户数
+        int neighbour = 2;
+        // 推荐书籍数
+        int recommendBooks = 2;
+        BookRecommendUtil bookRecommendUtil = new BookRecommendUtil(bookRecommendService);
+        // 采用皮尔逊相关系数计算相似度
+        List<Integer> books = bookRecommendUtil.bookRecommend(targetReader,neighbour,recommendBooks,new MyPPMCC(bookRecommendService),targetBook);
+        List<Book> returnList = new LinkedList<Book>();
+        for (int bookId:books){
+            Book book = bookService.findBookByBookId(bookId);
+            returnList.add(book);
+        }
+        System.out.println(books);
+        map.put("bl", returnList);
+        return map;
+    }
 }

@@ -26,4 +26,8 @@ public class BookCLCServiceImpl implements BookCLCService {
     public List<BookCLC> findByStatus(String bookNO) {
         return bookCLCDao.findByStatus(bookNO);
     }
+
+    public void updateStatus(String barCode) {
+        bookCLCDao.updateStatus(barCode);
+    }
 }

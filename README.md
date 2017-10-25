@@ -1,8 +1,8 @@
 # LibrarySystem
-基于Spring、SpringMVC、Hibernate的图书管理系统
+一个结合了个性化推荐功能的图书管理系统
 
-- 主要功能：书籍多条件检索、猜你喜欢、借阅管理、图书管理、读者管理等
-- 关键技术：Java、Maven、Spring、SpringMVC、Hibernate、MySQL、Spring Security、Ajax、JavaScript、jQuery
-- 采用CF过滤算法、K邻居算法实现个性化推荐
-- 采用Ajax技术实现数据实时更新
-- 采用jQuery实现用户界面优化
+- 基于Spring、SpringMVC、Hibernate开发，使用Maven构建项目、管理依赖，数据库采用MySQL
+- 使用Spring Security实现权限控制
+- 使用Java语言结合CF过滤算法、K-邻居算法，实现个性化推荐书籍功能
+- 采用AJAX实现数据实时更新
+- 使用HTML5、CSS3、JavaScript、jQuery、layer编写前端页面
